@@ -1,0 +1,42 @@
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+header img {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-menu {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    border: 2px groove rgba(11,42,63,0.32);
+}
+
+li.nav-item {
+    padding: 7.5px;
+    text-align: center;
+}
+
+a.nav-link {
+    padding: 0%;
+}
+
+
+section {
+    margin-top: 11rem;
+}
+
+.search-btn button {
+    border-radius: 10px;
+}
+
+.search-btn button, footer {
+    background-color: #e8eaec !important;
+}
+
+.row {
+    align-items: flex-start;
+}
